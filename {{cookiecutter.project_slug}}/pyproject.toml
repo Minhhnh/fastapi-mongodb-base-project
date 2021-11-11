@@ -21,7 +21,6 @@ python-dotenv = "^0.17.1"
 wget = "^3.2"
 passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 python-jose = {extras = ["cryptography"], version = "^3.3.0"}
-python-crontab = "^2.6.0"
 Jinja2 = "^3.0.2"
 tensorflow = "2.4.0"
 
