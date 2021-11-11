@@ -28,5 +28,6 @@ class BaseModel(abc.ABC):
     def evaluate(self, test_dataset):
         pass
 
+    @abc.abstractmethod
     def save_model(self, save_path):
-        self.model.save_weights(save_path)
+        pass
