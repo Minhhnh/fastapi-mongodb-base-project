@@ -18,5 +18,4 @@ RUN poetry install --no-dev
 
 COPY . ./
 
-RUN poetry run python run_crontab.py
 CMD ["poetry", "run","uvicorn", "app.main:app", "--proxy-headers", "--host", "0.0.0.0", "--port", "{{cookiecutter.port}}"]
